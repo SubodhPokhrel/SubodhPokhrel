@@ -6,13 +6,6 @@
   </picture>
 </a>
 
-<p align="center">
-  <a href="https://subodhpokhrel.com"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://subodhpokhrel.com/work">Work</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://subodhpokhrel.com/about">About</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://subodhpokhrel.com/contact">Contact</a>
-</p>
-
 <br>
 
 I'm a **UI/UX and graphics designer who also ships software**. I take products from the first wireframe and brand system all the way to a fast, production-grade frontend — and the APIs, databases and pipelines behind it.

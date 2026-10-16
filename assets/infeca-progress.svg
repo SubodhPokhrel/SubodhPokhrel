@@ -14,25 +14,51 @@
   <defs>
     <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1.2" fill="#f4f4f6" fill-opacity="0.08"/></pattern>
     <filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="90"/></filter>
-    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="hsl(255,72%,67%)" stop-opacity="0"/><stop offset="0.35" stop-color="hsl(282,64%,68%)"/><stop offset="0.65" stop-color="hsl(200,78%,70%)"/><stop offset="1" stop-color="hsl(330,70%,72%)" stop-opacity="0"/>
-    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFBA71" stop-opacity="0"/><stop offset="0.3" stop-color="#FF6778"/><stop offset="0.55" stop-color="#C686FF"/><stop offset="0.8" stop-color="#8D9FFF"/><stop offset="1" stop-color="#8D9FFF" stop-opacity="0"/></linearGradient>
     <clipPath id="track"><rect x="440" y="560" width="560" height="6" rx="3"/></clipPath>
+    <clipPath id="frame"><rect width="1440" height="900" rx="28"/></clipPath>
   </defs>
-  <rect width="1440" height="900" fill="#08080a"/>
-  <rect width="1440" height="900" fill="url(#dots)"/>
-  <g filter="url(#blur)" opacity="0.55">
-    <ellipse class="blob b1" cx="980" cy="260" rx="320" ry="190" fill="hsl(255,72%,67%)"/>
-    <ellipse class="blob b2" cx="460" cy="660" rx="300" ry="170" fill="hsl(200,78%,70%)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1440" height="900" fill="#08080a"/>
+    <rect width="1440" height="900" fill="url(#dots)"/>
+    <g filter="url(#blur)" opacity="0.5">
+      <ellipse class="blob b1" cx="980" cy="260" rx="320" ry="190" fill="#C686FF"/>
+      <ellipse class="blob b2" cx="460" cy="660" rx="300" ry="170" fill="#FF6778"/>
+    </g>
   </g>
 
+  <defs>
+    <filter id="specblur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="46"/></filter>
+    <g id="spec" filter="url(#specblur)">
+      <g>
+      <polygon points="720,450 2418,450 2411,602 2391,752 2357,900 2311,1045 2251,1184 2179,1318 2096,1445 2002,1564 1897,1674 1783,1774 1660,1864 1530,1942" fill="#BC82F3"/>
+      <polygon points="720,450 1569,1921 1434,1991 1294,2048 1149,2093 1000,2125 850,2143 698,2148 546,2139 396,2117 248,2081 105,2033 -34,1971 -167,1898" fill="#F5B9EA"/>
+      <polygon points="720,450 -129,1921 -257,1839 -377,1746 -489,1643 -590,1530 -682,1409 -762,1280 -830,1144 -886,1003 -929,857 -958,708 -975,557 -978,406" fill="#8D9FFF"/>
+      <polygon points="720,450 -978,450 -971,298 -951,148 -917,-0 -871,-145 -811,-284 -739,-418 -656,-545 -562,-664 -457,-774 -343,-874 -220,-964 -90,-1042" fill="#FF6778"/>
+      <polygon points="720,450 -129,-1021 6,-1091 146,-1148 291,-1193 440,-1225 590,-1243 742,-1248 894,-1239 1044,-1217 1192,-1181 1335,-1133 1474,-1071 1607,-998" fill="#FFBA71"/>
+      <polygon points="720,450 1569,-1021 1697,-939 1817,-846 1929,-743 2030,-630 2122,-509 2202,-380 2270,-244 2326,-103 2369,43 2398,192 2415,343 2418,494" fill="#C686FF"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 720.0 450.0" to="360 720.0 450.0" dur="8.0s" repeatCount="indefinite"/>
+      </g>
+    </g>
+        <filter id="rb0" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="24"/></filter>
+    <mask id="ring0" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="900"><rect x="0" y="0" width="1440" height="900" rx="28" fill="none" stroke="#fff" stroke-width="72" filter="url(#rb0)"/></mask>
+    <filter id="rb1" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
+    <mask id="ring1" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="900"><rect x="0" y="0" width="1440" height="900" rx="28" fill="none" stroke="#fff" stroke-width="26" filter="url(#rb1)"/></mask>
+    <filter id="rb2" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <mask id="ring2" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="900"><rect x="0" y="0" width="1440" height="900" rx="28" fill="none" stroke="#fff" stroke-width="10" filter="url(#rb2)"/></mask>
+    <mask id="ring3" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="900"><rect x="0" y="0" width="1440" height="900" rx="28" fill="none" stroke="#fff" stroke-width="2.5"/></mask>
+  </defs>
+  <g clip-path="url(#frame)">
+        <g mask="url(#ring0)" opacity="0.65"><use href="#spec"/></g>
+    <g mask="url(#ring1)" opacity="0.95"><use href="#spec"/></g>
+    <g mask="url(#ring2)" opacity="1"><use href="#spec"/></g>
+    <g mask="url(#ring3)" opacity="1"><use href="#spec"/></g>
+  </g>
   <rect x="610" y="196" width="220" height="44" rx="22" fill="rgba(210,153,34,0.14)" stroke="rgba(210,153,34,0.55)"/>
   <circle cx="640" cy="218" r="6" fill="#d29922"><animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
   <text class="sans" x="732" y="225" text-anchor="middle" font-size="18" font-weight="600" letter-spacing="0.14em" fill="#e3b341">IN PROGRESS</text>
-
   <text class="sans" x="720" y="410" text-anchor="middle" font-size="150" font-weight="700" letter-spacing="-0.035em" fill="#f4f4f6">Infeca</text>
   <text class="sans" x="720" y="478" text-anchor="middle" font-size="32" fill="#a4a4ad">Group of companies — trading &amp; furniture</text>
-
   <rect x="440" y="560" width="560" height="6" rx="3" fill="rgba(244,244,246,0.10)"/>
   <g clip-path="url(#track)">
     <rect x="440" y="560" width="220" height="6" fill="url(#bar)">

@@ -38,24 +38,24 @@ My portfolio, designed and built from scratch: a hand-written WebGL aurora, a to
       <code>React</code> <code>Vite</code> <code>Three.js</code> <code>Express</code> <code>MongoDB</code> <code>Redis</code> <code>OpenAI</code></p>
     </td>
     <td width="50%" valign="top">
+      <a href="https://virzeen.com"><img src="assets/virzeen.jpg" alt="Virzeen store home page"></a>
+      <p><b><a href="https://virzeen.com">Virzeen</a></b> · 2026 &nbsp;<img src="assets/status-live.svg" alt="Live" height="20"><br>
+      <sub>Monochrome fashion label and online store from Nepal — shop, portfolio, accounts and admin, with cash-on-delivery checkout.</sub><br>
+      <code>Next.js</code> <code>Turborepo</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Better Auth</code> <code>Sentry</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://ansportia.com"><img src="assets/ansportia.jpg" alt="Ansportia website"></a>
       <p><b><a href="https://ansportia.com">Ansportia</a></b> · 2025 &nbsp;<img src="assets/status-live.svg" alt="Live" height="20"><br>
       <sub>Brand site and cloud trading-management system for Nepal–China imports and exports — orders, suppliers, payments and documents.</sub><br>
       <code>Next.js</code> <code>NestJS</code> <code>Prisma</code> <code>Supabase</code> <code>Three.js</code></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://gtradea.com"><img src="assets/gtradea.jpg" alt="gtradeA store home page"></a>
       <p><b><a href="https://gtradea.com">gtradeA</a></b> · 2026 &nbsp;<img src="assets/status-live.svg" alt="Live" height="20"><br>
       <sub>Cross-border online store — fashion, toys, beauty, home and corporate gifts, shipped beyond borders.</sub><br>
       <code>E-commerce</code> <code>Catalog &amp; search</code> <code>Accounts &amp; cart</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/infeca-progress.svg" alt="Infeca — group web app in progress">
-      <p><b>Infeca</b> · 2026 &nbsp;<img src="assets/status-in-progress.svg" alt="In progress" height="20"><br>
-      <sub>Web app for the Infeca group of companies — the parent of Ansportia, spanning trading and furniture.</sub><br>
-      <code>Next.js</code> <code>NestJS</code> <code>Prisma</code> <code>Supabase</code></p>
     </td>
   </tr>
   <tr>
@@ -70,6 +70,21 @@ My portfolio, designed and built from scratch: a hand-written WebGL aurora, a to
       <p><b><a href="https://yoginiarts.com">Yogini Arts</a></b> · 2024 &nbsp;<img src="assets/status-live.svg" alt="Live" height="20"><br>
       <sub>Chinese and English site for sacred Himalayan art and sound instruments.</sub><br>
       <code>React</code> <code>Vite</code> <code>i18next</code> <code>Node.js</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/infeca-progress.svg" alt="Infeca — group web app in progress">
+      <p><b>Infeca</b> · 2026 &nbsp;<img src="assets/status-in-progress.svg" alt="In progress" height="20"><br>
+      <sub>Web app for the Infeca group of companies — the parent of Ansportia, spanning trading and furniture.</sub><br>
+      <code>Next.js</code> <code>NestJS</code> <code>Prisma</code> <code>Supabase</code></p>
+    </td>
+    <td width="50%" valign="middle" align="center">
+      <br><br>
+      <b>More work</b><br>
+      <sub>Case studies, process and how I work</sub><br><br>
+      <a href="https://subodhpokhrel.com/work"><b>See everything on subodhpokhrel.com →</b></a>
+      <br><br>
     </td>
   </tr>
 </table>

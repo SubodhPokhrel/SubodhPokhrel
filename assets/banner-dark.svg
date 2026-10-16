@@ -52,12 +52,14 @@
   </g>
   <rect x="0.5" y="0.5" width="1279" height="439" fill="none" stroke="rgba(244,244,246,0.14)"/>
 
-  <circle cx="78" cy="92" r="4" fill="hsl(200,78%,70%)"><animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/></circle>
-  <circle cx="78" cy="92" r="4" fill="none" stroke="hsl(200,78%,70%)" stroke-width="1.5">
+  <path transform="translate(72 62) scale(0.0581)" fill="#f4f4f6" d="M384.429 394.06C402.699 376.06 419.129 360.89 436.509 343.11C440.349 339.18 437.889 327.35 433.519 324.14C428.699 320.6 419.609 320.36 414.139 325.7L346.149 392.1L254.629 480.8C213.909 520.27 153.459 526.3 100.489 504.34C53.2392 484.75 17.7492 440.51 10.3592 384.54C5.01919 344.09 17.7092 299.34 48.0792 268.85L308.269 7.7002C361.429 60.7502 361.489 146.85 308.399 199.98L147.739 360.75C143.699 364.8 145.519 374.78 147.979 378.37C150.439 381.97 162.689 385.12 166.079 381.77L316.449 233.16C366.599 183.59 446.239 178.54 506.649 213.41C565.509 247.38 599.439 316.94 585.349 385.08C573.159 444.02 530.019 489.73 477.739 507.38C417.229 527.81 354.429 512.6 309.099 468.31L384.429 394.08V394.06Z"/>
+  <rect x="124" y="66" width="1" height="26" fill="rgba(244,244,246,0.14)"/>
+  <circle cx="144" cy="79" r="4" fill="hsl(200,78%,70%)"><animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="144" cy="79" r="4" fill="none" stroke="hsl(200,78%,70%)" stroke-width="1.5">
     <animate attributeName="r" values="4;12" dur="2.4s" repeatCount="indefinite"/>
     <animate attributeName="stroke-opacity" values="0.7;0" dur="2.4s" repeatCount="indefinite"/>
   </circle>
-  <text class="sans" x="94" y="97" font-size="14" font-weight="600" letter-spacing="0.16em" fill="#9a9aa3">AVAILABLE FOR WORK · GUANGZHOU</text>
+  <text class="sans" x="160" y="84" font-size="14" font-weight="600" letter-spacing="0.16em" fill="#9a9aa3">AVAILABLE FOR WORK · GUANGZHOU</text>
 
   <text class="sans" x="68" y="180" font-size="76" font-weight="700" letter-spacing="-0.032em" fill="#f4f4f6">Subodh Pokhrel</text>
   <text class="sans role r0" x="72" y="236" font-size="33" font-weight="650" fill="url(#aur)">UI/UX designer</text>

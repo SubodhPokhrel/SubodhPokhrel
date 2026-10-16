@@ -21,7 +21,7 @@
   <g clip-path="url(#frame)">
     <rect width="1440" height="900" fill="#08080a"/>
     <rect width="1440" height="900" fill="url(#dots)"/>
-    <g filter="url(#blur)" opacity="0.5">
+    <g filter="url(#blur)" opacity="0.32">
       <ellipse class="blob b1" cx="980" cy="260" rx="320" ry="190" fill="#C686FF"/>
       <ellipse class="blob b2" cx="460" cy="660" rx="300" ry="170" fill="#FF6778"/>
     </g>
@@ -49,10 +49,10 @@
     <mask id="ring3" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="900"><rect x="0" y="0" width="1440" height="900" rx="28" fill="none" stroke="#fff" stroke-width="2.5"/></mask>
   </defs>
   <g clip-path="url(#frame)">
-        <g mask="url(#ring0)" opacity="0.65"><use href="#spec"/></g>
-    <g mask="url(#ring1)" opacity="0.95"><use href="#spec"/></g>
-    <g mask="url(#ring2)" opacity="1"><use href="#spec"/></g>
-    <g mask="url(#ring3)" opacity="1"><use href="#spec"/></g>
+        <g mask="url(#ring0)" opacity="0.36"><use href="#spec"/></g>
+    <g mask="url(#ring1)" opacity="0.52"><use href="#spec"/></g>
+    <g mask="url(#ring2)" opacity="0.55"><use href="#spec"/></g>
+    <g mask="url(#ring3)" opacity="0.55"><use href="#spec"/></g>
   </g>
   <rect x="610" y="196" width="220" height="44" rx="22" fill="rgba(210,153,34,0.14)" stroke="rgba(210,153,34,0.55)"/>
   <circle cx="640" cy="218" r="6" fill="#d29922"><animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/></circle>

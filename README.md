@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img alt="Subodh Pokhrel — UI/UX designer, graphic designer and full-stack developer. Available for work." src="assets/banner-dark.svg" width="100%">
+    <img alt="Subodh Pokhrel — UI/UX designer, graphic designer and full-stack developer." src="assets/banner-dark.svg" width="100%">
   </picture>
 </a>
 

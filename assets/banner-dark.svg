@@ -43,12 +43,6 @@
   <g clip-path="url(#frame)">
     <rect width="1280" height="440" fill="#000000"/>
     <rect width="1280" height="440" fill="url(#dots)" mask="url(#dotmask)"/>
-    <g filter="url(#blur)" opacity="0.26">
-      <ellipse class="blob b1" cx="850" cy="110" rx="220" ry="130" fill="#8D9FFF"/>
-      <ellipse class="blob b2" cx="1170" cy="330" rx="190" ry="120" fill="#FF6778"/>
-      <ellipse class="blob b3" cx="770" cy="350" rx="170" ry="100" fill="#FFBA71"/>
-      <ellipse class="blob b4" cx="1110" cy="90" rx="170" ry="95" fill="#C686FF"/>
-    </g>
   </g>
 
   <defs>
@@ -68,15 +62,13 @@
     <mask id="ring0" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="440"><rect x="0" y="0" width="1280" height="440" rx="28" fill="none" stroke="#fff" stroke-width="72" filter="url(#rb0)"/></mask>
     <filter id="rb1" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>
     <mask id="ring1" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="440"><rect x="0" y="0" width="1280" height="440" rx="28" fill="none" stroke="#fff" stroke-width="26" filter="url(#rb1)"/></mask>
-    <filter id="rb2" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="3.5"/></filter>
-    <mask id="ring2" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="440"><rect x="0" y="0" width="1280" height="440" rx="28" fill="none" stroke="#fff" stroke-width="10" filter="url(#rb2)"/></mask>
-    <mask id="ring3" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="440"><rect x="0" y="0" width="1280" height="440" rx="28" fill="none" stroke="#fff" stroke-width="2.5"/></mask>
+    <filter id="rb2" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+    <mask id="ring2" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="440"><rect x="0" y="0" width="1280" height="440" rx="28" fill="none" stroke="#fff" stroke-width="12" filter="url(#rb2)"/></mask>
   </defs>
   <g clip-path="url(#frame)">
-        <g mask="url(#ring0)" opacity="0.33"><use href="#spec"/></g>
-    <g mask="url(#ring1)" opacity="0.52"><use href="#spec"/></g>
-    <g mask="url(#ring2)" opacity="0.55"><use href="#spec"/></g>
-    <g mask="url(#ring3)" opacity="0.55"><use href="#spec"/></g>
+        <g mask="url(#ring0)" opacity="0.19"><use href="#spec"/></g>
+    <g mask="url(#ring1)" opacity="0.30"><use href="#spec"/></g>
+    <g mask="url(#ring2)" opacity="0.32"><use href="#spec"/></g>
   </g>
 
   <path transform="translate(72 90) scale(0.0581)" fill="#f4f4f6" d="M384.429 394.06C402.699 376.06 419.129 360.89 436.509 343.11C440.349 339.18 437.889 327.35 433.519 324.14C428.699 320.6 419.609 320.36 414.139 325.7L346.149 392.1L254.629 480.8C213.909 520.27 153.459 526.3 100.489 504.34C53.2392 484.75 17.7492 440.51 10.3592 384.54C5.01919 344.09 17.7092 299.34 48.0792 268.85L308.269 7.7002C361.429 60.7502 361.489 146.85 308.399 199.98L147.739 360.75C143.699 364.8 145.519 374.78 147.979 378.37C150.439 381.97 162.689 385.12 166.079 381.77L316.449 233.16C366.599 183.59 446.239 178.54 506.649 213.41C565.509 247.38 599.439 316.94 585.349 385.08C573.159 444.02 530.019 489.73 477.739 507.38C417.229 527.81 354.429 512.6 309.099 468.31L384.429 394.08V394.06Z"/>
